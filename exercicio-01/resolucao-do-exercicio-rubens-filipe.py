@@ -2,16 +2,16 @@
 1 - Escreva um programa que converta a temperatura de Fahrenheit para celsius;
 """
 
-# fahrenheit = float(input("Informe a temperatura: "))
-# celsius = (fahrenheit - 32) / 1.8
-# print("O valor de Celsius é {:.2f}".format(celsius))
+fahrenheit = float(input("Informe a temperatura: "))
+celsius = (fahrenheit - 32) / 1.8
+print("O valor de Celsius é {:.2f}".format(celsius))
 
 """
 2 - Escreva um programa que solicite o ano de nascimento e calcule a idade atual;
 """
-# nascimento = int(input("Informe o ano do seu nascimento: "))
-# anoAtual = 2020 - nascimento
-# print("Você tem", anoAtual, "anos.")
+nascimento = int(input("Informe o ano do seu nascimento: "))
+anoAtual = 2020 - nascimento
+print("Você tem", anoAtual, "anos.")
 
 """
 Escreva um programa que calcule o saldo de investimento após descontar 20%
@@ -31,18 +31,18 @@ Entre 200 e 400, o preço é R$ 0,18. Acima de 400 minutos o preço por minuto �
 """
 # conta = float(input("Informe quantos minutos você ficou ao telefone: "))
 
-# total = conta
-# if total <= 199:
-#     total *= 0.2
-#     print("Você ficou {:.2f}".format(total), " minutos no telefone. Dando um total de R${:.2f}".format(total))
-# elif total >= 200 and total <= 399:
-#     total *= 0.18
-#     print("Você ficou {:.2f}".format(total),
-#           " minutos no telefone. Dando um total de R${:.2f}".format(total))
-# else:
-#     total *= 0.15
-#     print("Você ficou {:.2f}".format(total),
-#           " minutos no telefone. Dando um total de R${:.2f}".format(total))
+total = conta
+if total <= 199:
+    total *= 0.2
+    print("Você ficou {:.2f}".format(total), " minutos no telefone. Dando um total de R${:.2f}".format(total))
+elif total >= 200 and total <= 399:
+    total *= 0.18
+    print("Você ficou {:.2f}".format(total),
+          " minutos no telefone. Dando um total de R${:.2f}".format(total))
+else:
+    total *= 0.15
+    print("Você ficou {:.2f}".format(total),
+          " minutos no telefone. Dando um total de R${:.2f}".format(total))
 
 
 """
@@ -63,33 +63,33 @@ Escreva um programa de ajuste de salario de acorto com a tabela abaixo:
 # cargo = input("Informe seu cargo:")
 
 
-# if cargo == "secretario":
-#     salario = float(1300)
-#     aumento = (float(salario * 10) / 100) + salario
-#     print("Secretario que ganha R${:.2f}".format(
-#         salario), " vai receber R${:.2f}".format(aumento))
-# elif cargo == "professor":
-#     salario = float(2200)
-#     aumento = (float(salario * 25) / 100) + salario
-#     print("Secretario que ganha R${:.2f}".format(
-#         salario), " vai receber R${:.2f}".format(aumento))
-# elif cargo == "coordenador":
-#     salario = float(3000)
-#     aumento = (float(salario * 11) / 100) + salario
-#     print("Secretario que ganha R${:.2f}".format(
-#         salario), " vai receber R${:.2f}".format(aumento))
-# elif cargo == "diretor":
-#     salario = float(4000)
-#     aumento = salario
-#     print("Secretario que ganha R${:.2f}".format(
-#         salario), " vai receber R${:.2f}".format(aumento), "sem aumento")
-# elif cargo == "atendente":
-#     salario = float(1045)
-#     aumento = (float(salario * 15) / 100) + salario
-#     print("Secretario que ganha R${:.2f}".format(
-#         salario), " vai receber R${:.2f}".format(aumento))
-# else:
-#     print("Desculpe não temos este cargo aqui no momento! :(")
+if cargo == "secretario":
+    salario = float(1300)
+    aumento = (float(salario * 10) / 100) + salario
+    print("Secretario que ganha R${:.2f}".format(
+        salario), " vai receber R${:.2f}".format(aumento))
+elif cargo == "professor":
+    salario = float(2200)
+    aumento = (float(salario * 25) / 100) + salario
+    print("Secretario que ganha R${:.2f}".format(
+        salario), " vai receber R${:.2f}".format(aumento))
+elif cargo == "coordenador":
+    salario = float(3000)
+    aumento = (float(salario * 11) / 100) + salario
+    print("Secretario que ganha R${:.2f}".format(
+        salario), " vai receber R${:.2f}".format(aumento))
+elif cargo == "diretor":
+    salario = float(4000)
+    aumento = salario
+    print("Secretario que ganha R${:.2f}".format(
+        salario), " vai receber R${:.2f}".format(aumento), "sem aumento")
+elif cargo == "atendente":
+    salario = float(1045)
+    aumento = (float(salario * 15) / 100) + salario
+    print("Secretario que ganha R${:.2f}".format(
+        salario), " vai receber R${:.2f}".format(aumento))
+else:
+    print("Desculpe não temos este cargo aqui no momento! :(")
 
 
 """
