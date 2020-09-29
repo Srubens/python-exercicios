@@ -29,19 +29,19 @@ Escreva um programa para calcular a conta de telefone seguindo as intruções:
 Abaixo de 200 minutos, a empresa cobrea R$0,20 por minuto. 
 Entre 200 e 400, o preço é R$ 0,18. Acima de 400 minutos o preço por minuto é R$ 0,15.
 """
-# conta = float(input("Informe quantos minutos você ficou ao telefone: "))
+conta = float(input("Informe quantos minutos você ficou ao telefone: "))
 
 total = conta
 if total <= 199:
     total *= 0.2
-    print("Você ficou {:.2f}".format(total), " minutos no telefone. Dando um total de R${:.2f}".format(total))
+    print("Você ficou ", conta, " minutos no telefone. Dando um total de R${:.2f}".format(total))
 elif total >= 200 and total <= 399:
     total *= 0.18
-    print("Você ficou {:.2f}".format(total),
+    print("Você ficou ", conta,
           " minutos no telefone. Dando um total de R${:.2f}".format(total))
 else:
     total *= 0.15
-    print("Você ficou {:.2f}".format(total),
+    print("Você ficou ", conta,
           " minutos no telefone. Dando um total de R${:.2f}".format(total))
 
 
@@ -59,8 +59,8 @@ Escreva um programa de ajuste de salario de acorto com a tabela abaixo:
 -----------------------------------
 """
 
-# print("\nCargos da empresa: secretario, professor, coordenador, diretor, atendente")
-# cargo = input("Informe seu cargo:")
+print("\nCargos da empresa: secretario, professor, coordenador, diretor, atendente")
+cargo = input("Informe seu cargo:")
 
 
 if cargo == "secretario":
