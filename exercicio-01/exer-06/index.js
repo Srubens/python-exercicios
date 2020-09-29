@@ -16,7 +16,6 @@
         console.log(numeros)
         console.log(soma)
         console.log(soma.push(numeros))
-        console.log(cont)
         
     }
 
