@@ -1,5 +1,5 @@
-(function(){
-    
+(function () {
+
     'use script'
     console.log('Ola mundo');
 
@@ -8,15 +8,15 @@
     var i = true
     var media;
 
-    while(i == true){
+    while (i == true) {
         var numeros = prompt("Digite um numero para começarmos e nao quando quiser sair: ")
-        if(numeros == "nao"){
-           break;
+        if (numeros == "nao") {
+            break;
         }
         console.log(numeros)
         console.log(soma)
         console.log(soma.push(numeros))
-        
+
     }
 
     var Myreduce = soma.reduce((acumulado, atual) => {
@@ -24,8 +24,9 @@
     })
 
     media = Myreduce / soma.length
+    document.write(`A media é ${media}`)
     console.log(`A media é ${media}`)
-    
-    
+
+
 
 })()
