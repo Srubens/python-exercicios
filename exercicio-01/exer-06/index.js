@@ -16,7 +16,6 @@
         console.log(numeros)
         console.log(soma)
         console.log(soma.push(numeros))
-
     }
 
     var Myreduce = soma.reduce((acumulado, atual) => {
